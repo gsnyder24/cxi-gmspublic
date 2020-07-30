@@ -1,0 +1,57 @@
+{
+  "name": "My Time Stamp Task",
+  "categories":
+[
+  {
+        "name": "TimeStamp",
+        "mTypes":
+         [
+            {
+                "name": "DateTimeStamp",
+                "snapinVersion": "3.0",
+                "displayName": "DateTimeStamp",
+                "tag": "TimeStamp",
+                "svg": "TimeStamp",
+                "helpUrl": "timestamp.html",
+                "tile": "gold",
+                "serviceName": "CollabDesigner",
+                "custom": "true",
+                "nodeType": "activity",
+                "modelClass": "DateTimeStamp.DateTimeStampModel",
+                "executionClass": "DateTimeStamp.DateTimeStampExecution",
+                "mapping": "[\"input\", \"output\"]",
+                "properties": [
+                ],
+                "input_schema": "{
+                                title: TimezoneData,
+                                type: object,
+                                properties: {
+                                    timezone: {
+                                        type: string}
+                                			  }
+                				}",
+                "output_schema":"{
+                		 title:timestamp_json,
+						 type:object,
+						 properties: {
+						  dayofweek:{type:string},
+						  dayofweekName:{type:string},
+						  day:{type:string},
+						  month:{type:string},
+						  monthName:{type:string},
+						  year:{type:string},
+						  hours:{type:string},
+						  minutes:{type:string},
+						  seconds:{type:string},
+						  millis:{type:string},
+						  ampm:{type:string},
+						  fulldate:{type:string},
+						  timezone:{type:string},
+						  status:{type:string}
+						                }
+						        }"                           
+            }
+        ]
+  }
+]
+}

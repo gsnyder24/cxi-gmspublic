@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete file="C:\Users\gmsnyder\eclipse-workspace\TimeStampV36\tasks/target/TimeStampV36-tasks-0.0.1.jar" quiet="true"/>
+  <jar basedir="C:\Users\gmsnyder\eclipse-workspace\TimeStampV36\tasks/target/build" defaultexcludes="No" destfile="C:\Users\gmsnyder\eclipse-workspace\TimeStampV36\tasks/target/TimeStampV36-tasks-0.0.1.jar"/>
+</target>
+</project>
